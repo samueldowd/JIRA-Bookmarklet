@@ -15,3 +15,5 @@ To manually add the bookmarklet:
 2. Assign it a name.
 3. Paste the text in the oneLinejavascript.txt file into the URL field.
 4. I'd suggest putting the bookmark on your bookmarks bar for easy access. (That is after all the point) But feel free to put it wherever you'd like.
+
+<a href="javascript:if(frames.length<1){void(document.bgColor=prompt('Change to which background color?',''))}else{alert('Page has frames. Use the version of this bookmarklet for frames. (bookmarklets.com)')}"><nobr><font color="#0000ff" size="+1">Page Color...</font></nobr></a>
